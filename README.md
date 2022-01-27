@@ -7,9 +7,9 @@
 
 ## Installation
 
-    To play this game you will the following is needed: 
+    To play this game the following is needed: 
     - Python3 installed in your system.
-    - A Git hub acount
+    - A Git hub account
     - Pull repository named git@github.com:BiniamBerhe/hangman.git
 
 ## Usage
@@ -28,4 +28,4 @@
     26/01/2022 to 27/01/20222 10:40
 
 ## Personal situation
-    **All and all best challenging pythin progect!! :)**
+    **All and all best python beginner level progect challenge!! :)**
