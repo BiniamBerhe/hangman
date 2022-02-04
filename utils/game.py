@@ -41,7 +41,9 @@ class Hangman:
         :print statement: that displays every possible match in"""
 
         letter = input("Guess latter:  ")
-        if len(letter) == 1 and letter.isalpha(): # This checks if input letter is one letter and letter only!
+
+        # This checks if input letter is one letter and letter only!
+        if len(letter) == 1 and letter.isalpha(): 
             if letter in self.wrong_guessed_latters:
                 print("You have already guessed the latter", letter)
                 self.error_count +=1
@@ -52,7 +54,8 @@ class Hangman:
                 self.turn_count +=1
                 self.wrong_guessed_latters.append(letter)
             else:
-                correct_letter = [i for i,x in enumerate(word) if x == letter] #This is un list comprehension that loops over enumerated latters
+                #This is a list comprehension that loops over word and compares it with letter
+                correct_letter = [i for i,x in enumerate(word) if x == letter] 
                 for i in correct_letter:
                         self.correctly_guessed_latters[i] = letter
                 if letter in self.well_guessed_latters:
@@ -63,7 +66,9 @@ class Hangman:
                     self.well_guessed_latters.append(letter)
                 self.turn_count +=1
                 print(self.correctly_guessed_latters, '\n')
-                if "_" not in self.correctly_guessed_latters: # Here the if statement checks that all the letters are answered
+                
+                # Here the if statement checks that all the letters are answered
+                if "_" not in self.correctly_guessed_latters:
                     self.result = True
         else:
             print("Not a valid guess.")
@@ -78,7 +83,7 @@ class Hangman:
         :Third checks if a player answered all the guess
         :If so calles well_played function"""
 
-        while self.lives > 1: # Here live is checked for the game to continue
+        while self.lives > 1: 
             print(f"Remaining Lives {self.lives}, correctly guessed letters {self.well_guessed_latters}, Wrong guessed letters {self.wrong_guessed_latters}, Errors made {self.error_count},Turns played {self.turn_count}")
             if self.result:
                 return self._well_played()
