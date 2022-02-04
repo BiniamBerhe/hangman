@@ -5,6 +5,10 @@ Here we have a game called Hangman, with player's object to identify a hidden le
 
 For this game, there was already provided list of words where randomly a word was selected. At the start of the game a name will be asked just for the purpose of welcoming and congratulation message.
 
+## Python version
+
+Python 3.6.9
+
 ## Installation
 
 To play this game the following is needed: 
@@ -18,8 +22,8 @@ After installation is done, open your terminal and navigate to the directory whe
 
 make sure you don't change any of the files presented!.
 
-## Contributors
-~~Biniam Berehe.~~
+## Who
+Biniam Berhe
 
 ## Timeline
 
