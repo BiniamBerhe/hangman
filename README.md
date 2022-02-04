@@ -30,4 +30,4 @@ Biniam Berhe
 26/01/2022 to 27/01/20222 10:40
 
 ## Personal situation
-**All and all best python beginner level progect challenge!! :)**
+**All and all best python beginner level project challenge!! :)**
