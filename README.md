@@ -1,4 +1,5 @@
 # Hangman
+![alt text](./utils/hang_man.png)
 ## Description
 
 Here we have a game called Hangman, with player's object to identify a hidden letter. In each round, the player guesses a letter of alphabet: if the letter is present in the word rondomly selected to be guessed the latter will be revealed and on and on unitill the player guess all the letters, then the game ends in win if all letters are guessed,and ends in loss if the live provided is reachis zero.
